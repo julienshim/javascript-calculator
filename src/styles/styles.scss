@@ -1,0 +1,78 @@
+@import "./base/settings";
+@import "./base/base";
+@import url("https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap");
+
+* {
+  color: rgba(233, 233, 233, 0.98);
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 12px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("/images/mare-wave.png");
+}
+
+#display {
+  background: rgba(233, 233, 233, 0.98);
+  border: 1px solid rgba(233, 233, 233, 0.98);
+  color: rgba(41, 58, 74, 1);
+  font-size: 48px;
+  padding: 60px 12px 12px 12px;
+  text-align: right;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  align-items: center;
+  background-color: rgba(66, 83, 99, 0.98);
+  border: 1px solid rgba(66, 83, 99, 0.98);
+  display: flex;
+  font-size: 24px;
+  height: 100px;
+  justify-content: center;
+  width: 100px;
+  &:hover {
+    background-color: rgba(119, 122, 91, 0.98);
+    border: 1px solid rgba(119, 122, 91, 1);
+  }
+}
+
+.operators {
+  background-color: rgba(105, 97, 86, 0.98);
+  border: 1px solid rgba(105, 97, 86, 0.98);
+}
+
+.tops {
+  background-color: rgba(41, 58, 74, 0.98);
+  border: 1px solid rgba(41, 58, 74, 0.98);
+}
+
+#javascript-calculator {
+  -moz-box-shadow: 5px 5px 5px rgba(66, 83, 99, 0.3);
+  -webkit-box-shadow: 5px 5px 5px rgba(66, 83, 99, 0.3);
+  box-shadow: 5px 5px 5px rgba(66, 83, 99, 0.3);
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#zero {
+  box-sizing: border-box;
+  grid-column-end: 3;
+  grid-column-start: 1;
+  height: 100%;
+  width: 100%;
+}
