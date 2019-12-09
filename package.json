@@ -28,9 +28,9 @@
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-modal": "^3.8.2",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
-    "validator": "^11.1.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
+    "validator": "^12.1.0",
     "webpack": "^4.35.3",
     "webpack-dev-server": "^3.7.2"
   },
